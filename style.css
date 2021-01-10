@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Do Hyeon', sans-serif;
+}
+.landing {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url(./hero.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 2vh;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding-left: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+}
+.nav-links li a:link,
+.nav-links li a:visited {
+    color: #fff;
+    text-decoration: none;
+    transition: color(0.2s);
+}
+.nav-links li a:hover,
+.nav-links li a:active {
+    color: rgb(153, 209, 255);
+    border-bottom: 2px solid rgb(153, 209, 255);
+}
+.logo {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 6rem;
+    color: #fff;
+    font-weight: lighter;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+}
+.big-text {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+
+}
+
+.intro {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background-color: rgba(0, 120, 218, 0.623);;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color:  rgb(153, 209, 255);
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: lighter;
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
